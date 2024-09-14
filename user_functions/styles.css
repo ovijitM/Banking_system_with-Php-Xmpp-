@@ -1,0 +1,76 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f5f7;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container for account info */
+.account-info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h1 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Form styling */
+form {
+    margin-top: 20px;
+}
+
+/* Input and button styling */
+input[type="number"] {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: calc(100% - 22px); /* Adjust width to account for padding and border */
+}
+
+/* Button styling */
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Error message styling */
+.error {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 16px;
+}
