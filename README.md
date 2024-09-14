@@ -83,7 +83,7 @@
 <h2>Setup and Installation</h2>
 <ol>
   <li>Clone the repository.</li>
-  <pre><code>git clone https://github.com/your-username/your-repo.git
+  <pre><code>[git clone https://github.com/your-username/your-repo.git](https://github.com/ovijitM/Banking_system_with-Php-Xmpp-.git)
 cd your-repo
 </code></pre>
   <li>Configure the database connections in the project to connect to <code>bank_1</code> and <code>bank_system</code>.</li>
